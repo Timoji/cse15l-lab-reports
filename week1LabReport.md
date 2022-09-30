@@ -2,6 +2,7 @@
 
 ### Step 1: Installing VScode.<br/>
 To install VScode, students must first go to [VScode Installer](https://code.visualstudio.com/). <br/>
+Open up the installed application and follow the directions shown on it. <br/>
 
 After installing and opening the application VScode, your application should look like this.
 ![SC of VScode](https://user-images.githubusercontent.com/114313685/193160564-fd903885-78fe-480b-b297-de2585290972.png) <br/> <br/>
