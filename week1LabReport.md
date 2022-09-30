@@ -46,11 +46,11 @@ Looking at the image above, you can see that the outputs are different depending
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter file in which to save the key (/Users/timot/.ssh/id_rsa): /Users/timot/.ssh/id_rsa
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
-Your identification has been saved in /Users/joe/.ssh/id_rsa.
-Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+Your identification has been saved in /Users/timot/.ssh/id_rsa.
+Your public key has been saved in /Users/timot/.ssh/id_rsa.pub.
 ```
 Once done with these commands, log back on to the ssh. To connect to the ssh use the command below. <br/>
 ```
