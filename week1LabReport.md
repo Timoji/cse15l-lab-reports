@@ -41,4 +41,33 @@ An example of the difference between using the WhereAmI file from the server and
 ![SC of Difference](https://user-images.githubusercontent.com/114313685/193166090-6b5e709e-9820-4afa-96b4-b386fe5d6122.PNG) <br/>
 Looking at the image above, you can see that the outputs are different depending on where the WhereAmI file is running. <br/> <br/>
 
-### Step 5: Setting an SSH Key
+### Step 5: Setting an SSH Ke.y <br/>
+(Logged out of the SSH) Use the commands below to create a pair of files called the public key and private key.
+```
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/joe/.ssh/id_rsa.
+Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+```
+Once done with these commands, log back on to the ssh. To connect to the ssh use the command below. <br/>
+```
+ssh cs15lfa22zz@ieng6.ucsd.edu
+```
+Once connected to the ssh, use the commands: <br/>
+```
+mkdir.ssh
+exit
+```
+Once finished, use the command: <br/>
+```
+scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+Once finish with this command, you should be able to connect to ssh without having to input your password. <br/>
+An example of not having to input a password to connect to ssh: <br/>
+![SC of sshkey](https://user-images.githubusercontent.com/114313685/193167485-9d735420-b9c6-49c8-b914-e4faaa1ba6c1.PNG) <br/>
+You can see in the example, the user only have to input the command ssh cs15lfa22hb@ieng6.ucsd.edu to connect to the ssh. <br/> <br/>
+
+### Step 6: Optimizing Remote Running. <br/>
