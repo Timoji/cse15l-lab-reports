@@ -74,7 +74,7 @@ You can see in the example, the user only have to input the command ssh cs15lfa2
 Some ways to increase efficiency when running: <br/>
 - You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit.
 - You can use semicolons to run multiple commands on the same line in most terminals.
-- You can use the up-arrow on your keyboard to recall the last command that was run. <br/> <br/>
+- You can use the up-arrow on your keyboard to recall the last command that was run. <br/>
 
 
 An example of using semicolons to run multiple commands on one line: <br/>
