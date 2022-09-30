@@ -23,6 +23,22 @@ For example, there are commands such as ls, cat, cs, and cd. <br/>
 ls lists the files in the current directory; cd changes the current directory; 
 cat views and prints thecontents of the file currently selected. <br/>
 Here is an example of some of the commands: <br/>
-![SC of Commands](https://user-images.githubusercontent.com/114313685/193163605-65c80d87-a868-4733-9882-d6c1109ef03c.PNG)
+![SC of Commands](https://user-images.githubusercontent.com/114313685/193163605-65c80d87-a868-4733-9882-d6c1109ef03c.PNG) <br/> <br/>
 
+### Step 4: Moving Files with scp. <br/>
+To move files from local to the server, students must first create or find what file to move. <br/>
+In this example, a java file named WhereAmI is the file that is going to be moved to the remote server. <br/>
+First, students must be logged out of the ssh and change their directory to wherever the file they want to move is. <br/>
+Once in the directory, use the following command to move the selected file to the remote server.
+```
+scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
+```
+(replace the zz with the letters of your account). <br/>
+After inputting the command above, log back into the ssh and use the command ls to see if your file has been moved. <br/>
+If you see your file, you have sucessfully learned how to move a file to a server! Look below to see what the file move looks like. <br/>
+![SC of SCP](https://user-images.githubusercontent.com/114313685/193165874-257b98f4-346e-4298-a7c8-bfc4b3c3edb8.PNG) <br/>
+An example of the difference between using the WhereAmI file from the server and locally: <br/>
+![SC of Difference](https://user-images.githubusercontent.com/114313685/193166090-6b5e709e-9820-4afa-96b4-b386fe5d6122.PNG) <br/>
+Looking at the image above, you can see that the outputs are different depending on where the WhereAmI file is running. <br/> <br/>
 
+### Step 5: Setting an SSH Key
