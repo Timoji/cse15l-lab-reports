@@ -13,7 +13,7 @@ With a new terminal, type in the following command into the terminal: <br/>
 ```
 ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
-The zz should be replaced with whatever your account letters are. <br/>
+(The zz should be replaced with whatever your account letters are.) <br/>
 It will then prompt you to enter your password. <br/>
 If you have successfully entered in the command and password, your terminal should look like this: <br/>
 ![SC of Connecting](https://user-images.githubusercontent.com/114313685/193162688-eb9ba353-3944-4555-a727-8c224257e831.png) <br/> <br/>
