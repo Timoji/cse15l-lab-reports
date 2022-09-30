@@ -14,7 +14,7 @@ With a new terminal, type in the following command into the terminal: <br/>
 ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
 (The zz should be replaced with whatever your account letters are.) <br/>
-It will then prompt you to enter your password. <br/>
+It will then prompt you to enter your password. <br/> <br/>
 If you have successfully entered in the command and password, your terminal should look like this: <br/>
 ![SC of Connecting](https://user-images.githubusercontent.com/114313685/193162688-eb9ba353-3944-4555-a727-8c224257e831.png) <br/> <br/>
 
@@ -22,7 +22,7 @@ If you have successfully entered in the command and password, your terminal shou
 With remote access to the server, there are several commands that can be used. <br/>
 For example, there are commands such as ls, cat, cs, and cd. <br/>
 ls lists the files in the current directory; cd changes the current directory; 
-cat views and prints thecontents of the file currently selected. <br/>
+cat views and prints thecontents of the file currently selected. <br/> <br/>
 Here is an example of some of the commands: <br/>
 ![SC of Commands](https://user-images.githubusercontent.com/114313685/193163605-65c80d87-a868-4733-9882-d6c1109ef03c.PNG) <br/> <br/>
 
@@ -35,9 +35,9 @@ Once in the directory, use the following command to move the selected file to th
 scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
 (replace the zz with the letters of your account). <br/>
-After inputting the command above, log back into the ssh and use the command ls to see if your file has been moved. <br/>
+After inputting the command above, log back into the ssh and use the command ls to see if your file has been moved. <br/> <br/>
 If you see your file, you have sucessfully learned how to move a file to a server! Look below to see what the file move looks like. <br/>
-![SC of scp2](https://user-images.githubusercontent.com/114313685/193169254-e704017d-0e78-4aa7-bff6-ae2f5f66807a.PNG) <br/>
+![SC of scp2](https://user-images.githubusercontent.com/114313685/193169254-e704017d-0e78-4aa7-bff6-ae2f5f66807a.PNG) <br/> <br/>
 An example of the difference between using the WhereAmI file from the server and locally: <br/>
 ![SC of Difference](https://user-images.githubusercontent.com/114313685/193166090-6b5e709e-9820-4afa-96b4-b386fe5d6122.PNG) <br/>
 Looking at the image above, you can see that the outputs are different depending on where the WhereAmI file is running. <br/> <br/>
@@ -66,7 +66,7 @@ Once finished, use the command but change the name of the user: <br/>
 ```
 scp /Users/timot/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-Once finish with this command, you should be able to connect to ssh without having to input your password. <br/>
+Once finish with this command, you should be able to connect to ssh without having to input your password. <br/> <br/>
 An example of not having to input a password to connect to ssh: <br/>
 ![SC of sshkey](https://user-images.githubusercontent.com/114313685/193167485-9d735420-b9c6-49c8-b914-e4faaa1ba6c1.PNG) <br/>
 You can see in the example, the user only has to input the command ssh cs15lfa22hb@ieng6.ucsd.edu to connect to the ssh. <br/> <br/>
