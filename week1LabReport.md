@@ -1,12 +1,12 @@
 # How to log into a course-specific account on ieng6.<br/>
 
-Step 1: Installing VScode.<br/>
+### Step 1: Installing VScode.<br/>
 To install VScode, students must first go to [VScode Installer](https://code.visualstudio.com/). <br/>
 
 After installing and opening the application VScode, your application should look like this.
 ![SC of VScode](https://user-images.githubusercontent.com/114313685/193160564-fd903885-78fe-480b-b297-de2585290972.png) <br/> <br/>
 
-Step 2: Remotely Connecting. <br/>
+### Step 2: Remotely Connecting. <br/>
 With VScode open, go to the top of the application and click terminal. After opening the terminal menu, create a new terminal. <br/>
 With a new terminal, type in the following command into the terminal: <br/>
 ```
