@@ -69,7 +69,7 @@ scp /Users/timot/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 Once finish with this command, you should be able to connect to ssh without having to input your password. <br/>
 An example of not having to input a password to connect to ssh: <br/>
 ![SC of sshkey](https://user-images.githubusercontent.com/114313685/193167485-9d735420-b9c6-49c8-b914-e4faaa1ba6c1.PNG) <br/>
-You can see in the example, the user only have to input the command ssh cs15lfa22hb@ieng6.ucsd.edu to connect to the ssh. <br/> <br/>
+You can see in the example, the user only has to input the command ssh cs15lfa22hb@ieng6.ucsd.edu to connect to the ssh. <br/> <br/>
 
 ### Step 6: Optimizing Remote Running. <br/>
 Some ways to increase efficiency when running: <br/>
@@ -80,4 +80,5 @@ Some ways to increase efficiency when running: <br/>
 
 An example of using semicolons to run multiple commands on one line: <br/>
 ![SC of optimization](https://user-images.githubusercontent.com/114313685/193168198-387dda87-5238-4cd9-9bcf-294b5395c4c8.PNG) <br/>
-In the example, I am running two commands on one line which is cat WhereAmI.java and cat hello.txt
+In the example, I am running two commands on one line which is cat WhereAmI.java and cat hello.txt <br/>
+It then prints out the contents of both files that I have specified.
