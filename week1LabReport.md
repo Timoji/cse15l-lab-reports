@@ -20,7 +20,7 @@ If you have successfully entered in the command and password, your terminal shou
 ### Step 3: Testing Out Commands. <br/>
 With remote access to the server, there are several commands that can be used. <br/>
 For example, there are commands such as ls, cat, cs, and cd. <br/>
-ls lists the files in the current directory. cd changes the current directory. 
+ls lists the files in the current directory; cd changes the current directory; 
 cat views and prints thecontents of the file currently selected. <br/>
 Here is an example of some of the commands: <br/>
 ![SC of Commands](https://user-images.githubusercontent.com/114313685/193163605-65c80d87-a868-4733-9882-d6c1109ef03c.PNG)
