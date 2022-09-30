@@ -42,7 +42,7 @@ An example of the difference between using the WhereAmI file from the server and
 Looking at the image above, you can see that the outputs are different depending on where the WhereAmI file is running. <br/> <br/>
 
 ### Step 5: Setting an SSH Ke.y <br/>
-(Logged out of the SSH) Use the commands below to create a pair of files called the public key and private key.
+(Logged out of the SSH) Use the commands below to create a pair of files called the public key and private key. (change the namem of the user)
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
@@ -61,9 +61,9 @@ Once connected to the ssh, use the commands: <br/>
 mkdir.ssh
 exit
 ```
-Once finished, use the command: <br/>
+Once finished, use the command but change the name of the user: <br/>
 ```
-scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+scp /Users/timot/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 Once finish with this command, you should be able to connect to ssh without having to input your password. <br/>
 An example of not having to input a password to connect to ssh: <br/>
