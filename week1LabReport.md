@@ -10,7 +10,7 @@ Step 2: Remotely Connecting. <br/>
 With VScode open, go to the top of the application and click terminal. After opening the terminal menu, create a new terminal. <br/>
 With a new terminal, type in the following command into the terminal: <br/>
 ```
-ssh cs15lfa22zz@ieng6.ucsd.edu <br/>
+ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
 It will then prompt you to enter your password. <br/>
 If you have successfully entered in the command and password, your terminal should look like this: <br/>
