@@ -36,7 +36,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 (replace the zz with the letters of your account). <br/>
 After inputting the command above, log back into the ssh and use the command ls to see if your file has been moved. <br/>
 If you see your file, you have sucessfully learned how to move a file to a server! Look below to see what the file move looks like. <br/>
-![SC of SCP](https://user-images.githubusercontent.com/114313685/193165874-257b98f4-346e-4298-a7c8-bfc4b3c3edb8.PNG) <br/>
+![SC of scp2](https://user-images.githubusercontent.com/114313685/193169254-e704017d-0e78-4aa7-bff6-ae2f5f66807a.PNG) <br/>
 An example of the difference between using the WhereAmI file from the server and locally: <br/>
 ![SC of Difference](https://user-images.githubusercontent.com/114313685/193166090-6b5e709e-9820-4afa-96b4-b386fe5d6122.PNG) <br/>
 Looking at the image above, you can see that the outputs are different depending on where the WhereAmI file is running. <br/> <br/>
