@@ -1,6 +1,6 @@
 # Week 3 Lab Report
 
-### Part 1: Simplest Search Engine
+## Part 1: Simplest Search Engine
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -61,5 +61,5 @@ the list. Similar to the screenshot above, the HandlerClass is also being used h
 After inputting/adding some items using the url, the items that have been added can be seen if the path has only the domain. <br/>
 The HandlerClass is also being used here to print out the items that have been inputted. <br/> <br/>
 
-# Part 2: Bugs
+## Part 2: Bugs
 #### First Bug In ArrayExamples File
