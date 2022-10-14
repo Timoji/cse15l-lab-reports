@@ -62,7 +62,7 @@ After inputting/adding some items using the url, the items that have been added 
 The HandlerClass is also being used here to print out the items that have been inputted. <br/> <br/>
 
 ## Part 2: Bugs
-#### First Bug In ArrayExamples File <br/>
+#### **First Bug In ArrayExamples File** <br/>
 #### Original Code
 ![SC of Original1](https://user-images.githubusercontent.com/114313685/195773050-ee3b0aaf-9ee4-4644-961b-a22c36f79678.PNG) <br/>
 #### Screenshot of Failure-Inducing Input
@@ -77,7 +77,7 @@ This is because once the method sets one index to another index, the other index
 original value. This will cause the array to display the wrong input and have some duplicates in it. To fix this, we can split <br/>
 the array into 2 to set the lower elements to the top and the top elements to the bottom. <br/> <br/>
 
-#### Second Bug In ListExamples File <br/>
+#### **Second Bug In ListExamples File** <br/>
 #### Screenshot of Failure-Inducing Input
 ![SC of Output2](https://user-images.githubusercontent.com/114313685/195774810-45d37d39-9ab2-4fbb-b5d4-c0b36206b1ef.PNG) <br/>
 #### Screenshot of The Symptom
