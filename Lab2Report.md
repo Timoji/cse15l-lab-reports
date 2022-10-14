@@ -63,6 +63,8 @@ The HandlerClass is also being used here to print out the items that have been i
 
 ## Part 2: Bugs
 #### First Bug In ArrayExamples File <br/>
+#### Original Code
+![SC of Original1](https://user-images.githubusercontent.com/114313685/195773050-ee3b0aaf-9ee4-4644-961b-a22c36f79678.PNG) <br/>
 #### Screenshot of Failure-Inducing Input
 ![SC of TestOutput1](https://user-images.githubusercontent.com/114313685/195771398-d60f9d29-54ff-474f-bd77-83e135507905.PNG) <br/>
 #### Screenshot of The Symptom
@@ -70,6 +72,20 @@ The HandlerClass is also being used here to print out the items that have been i
 #### Screenshot of The Bug
 ![SC of Code1](https://user-images.githubusercontent.com/114313685/195771528-fe4a0831-7244-4cc4-a7e4-96e9a4de9c98.PNG) <br/>
 ---
-Explanation
+The bug in this method is that with multiple inputs, the method will not display the reverse order of the elements inside the array. <br/>
+This is because once the method sets one index to another index, the other index is not able to be set to the first index's <br/>
+original value. This will cause the array to display the wrong input and have some duplicates in it. To fix this, we can split <br/>
+the array into 2 to set the lower elements to the top and the top elements to the bottom. <br/> <br/>
 
-
+#### Second Bug In ListExamples File <br/>
+#### Screenshot of Failure-Inducing Input
+![SC of Output2](https://user-images.githubusercontent.com/114313685/195774810-45d37d39-9ab2-4fbb-b5d4-c0b36206b1ef.PNG) <br/>
+#### Screenshot of The Symptom
+![SC of TestCode2](https://user-images.githubusercontent.com/114313685/195774851-a6c8a8a4-9c0f-437a-b74e-58e4e91815fb.PNG) <br/>
+#### Screenshot of The Bug
+![SC of Code2](https://user-images.githubusercontent.com/114313685/195774896-82ad73e6-ecaa-4db7-82ca-f80048c77335.PNG) <br/>
+---
+The bug in this method is when the first list finishes before the second list. This will make the code run an infinite loop <br/>
+because there is a while loop for when index2 < list2.size(), but it adds 1 to index1 instead of index2. This makes index2 stay <br/>
+at it's value forever and will always be less than the size of list2. To fix this, we can change the index1 to index2 in the <br/>
+last while loop of the method. <br/> <br/>
