@@ -62,4 +62,12 @@ After inputting/adding some items using the url, the items that have been added 
 The HandlerClass is also being used here to print out the items that have been inputted. <br/> <br/>
 
 ## Part 2: Bugs
-#### First Bug In ArrayExamples File
+#### First Bug In ArrayExamples File <br/>
+#### Screenshot of Failure-Inducing Input
+![SC of TestOutput1](https://user-images.githubusercontent.com/114313685/195771398-d60f9d29-54ff-474f-bd77-83e135507905.PNG) <br/>
+#### Screenshot of The Symptom
+![SC of TestCode1](https://user-images.githubusercontent.com/114313685/195771465-3af8206c-3de6-46f3-a052-018326af2b61.PNG) <br/>
+#### Screenshot of The Bug
+![SC of Code1](https://user-images.githubusercontent.com/114313685/195771528-fe4a0831-7244-4cc4-a7e4-96e9a4de9c98.PNG) <br/>
+
+
