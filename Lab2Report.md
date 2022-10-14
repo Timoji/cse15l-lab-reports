@@ -45,16 +45,16 @@ In this screenshot, the SearchEngine class was used to start up a server with a 
 it will print out the elements inside the inputs arraylist (there are no items inputted/added). <br/> <br/>
 
 #### Screenshot of Adding Item
-![SC of Search2](https://user-images.githubusercontent.com/114313685/195765081-30dcbf36-1e63-4c42-b1c6-db38b9bf2428.PNG)
+![SC of Search2](https://user-images.githubusercontent.com/114313685/195765081-30dcbf36-1e63-4c42-b1c6-db38b9bf2428.PNG) <br/>
 In the code, it will continue to look at the path to see if it contains "/add?s=". If the path contains this, then it will add whatever <br/>
 word inputted after the equal sign. For this screenshot, you can see that "apple" was added to the list. <br/> <br/>
 
 #### Screenshot of Adding Another Item
-![SC of Search3](https://user-images.githubusercontent.com/114313685/195765111-e8328804-51ed-4725-9724-b5ba803ac60c.PNG)
+![SC of Search3](https://user-images.githubusercontent.com/114313685/195765111-e8328804-51ed-4725-9724-b5ba803ac60c.PNG) <br/>
 Similar to the screenshot above, a different word was inputted after the equal sign which was "pear". This will then add pear to <br/>
 the list. <br/> <br/>
 
 #### Screenshot of List of Items Added
-![SC of Search4](https://user-images.githubusercontent.com/114313685/195765134-91841c61-37f8-4a43-86fc-fb98f27fb193.PNG)
+![SC of Search4](https://user-images.githubusercontent.com/114313685/195765134-91841c61-37f8-4a43-86fc-fb98f27fb193.PNG) <br/>
 After inputting/adding some items using the url, the items that have been added can be seen if the path has only the domain. <br/>
 
