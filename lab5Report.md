@@ -16,8 +16,8 @@ but with this command-line option you will not have to do this. <br/>
 <br/>
 
 - less +F <filename> tells less to watch the file contents for changes. This is helpful or useful when opening log files. <br/>
-![less f input](https://user-images.githubusercontent.com/114313685/198945297-0f2df8d8-315f-4d54-b4e5-c18bec1df784.PNG) <br/>
-![less f output](https://user-images.githubusercontent.com/114313685/198945330-f11dc234-8b5c-44c4-850b-f8e4089a77ee.PNG) <br/>
+![less f input](https://user-images.githubusercontent.com/114313685/198945297-0f2df8d8-315f-4d54-b4e5-c18bec1df784.PNG)   <br/>
+![less f output](https://user-images.githubusercontent.com/114313685/198945330-f11dc234-8b5c-44c4-850b-f8e4089a77ee.PNG)  <br/>
   
 ## find command-line options
 - find -iname <pattern> will print out the file that contains whatever is in the pattern parameter and it is cap insensitive. <br/>
