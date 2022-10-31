@@ -1,7 +1,7 @@
 # Week 5 Lab Report
 
 ## less command-line options
-- less -N <filename> will print out the output of less, but with line numbers. This is helpful because <br/>
+less -N <filename> will print out the output of less, but with line numbers. This is helpful because <br/>
 you can identify and call up the specific output that you want of the less command. <br/>
 ![less n input](https://user-images.githubusercontent.com/114313685/198956083-5186bcf9-6aa9-4f10-adee-410aa62e5212.PNG) <br/>
 ![less n output](https://user-images.githubusercontent.com/114313685/198944646-87564c9a-9ad5-4c3c-8a30-2e0dc4d90090.PNG) <br/>
