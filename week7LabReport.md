@@ -1,7 +1,7 @@
 # Week 7 Lab Report
 ## Part 1
 ### Changing the name of the start parameter and its uses to base. <br/>
-**Keys pressed during this operation:** /start<Enter>cebase<Esc>n.n. <br/>
+**Keys pressed during this operation:** /start< Enter >cebase< Esc >n.n. <br/>
 - /start <br/>
 - < Enter > <br/>
 ![find start](https://user-images.githubusercontent.com/114313685/201456651-bac784e6-894e-4c11-ab82-3883ad4f5435.PNG) <br/>
