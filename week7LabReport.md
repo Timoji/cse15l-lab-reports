@@ -7,7 +7,7 @@ Keys pressed during this operation: <br/>
 c <br/>
 e <br/>
 base <br/>
-<Esc> <br/>
+< Esc > <br/>
 n <br/>
 . <br/>
 n <br/>
