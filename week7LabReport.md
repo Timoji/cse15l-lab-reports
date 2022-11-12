@@ -48,13 +48,13 @@ This will repeat the last edit. <br/>
 When trying to do the edit above locally, it took around 40 seconds to do. <br/>
 When trying to do the edit above remotely, it took around 20 seconds to do. <br/> <br/>
 
-- Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why? <br/>
-If running remotely, I would prefer to use vim when trying to edit files because there are a lot of helpful shortcuts that <br/>
+**Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?** <br/>
+- If running remotely, I would prefer to use vim when trying to edit files because there are a lot of helpful shortcuts that <br/>
 vim offers. For example the . command is very helpful and can greatly reduce the time wasted on typing the same thing over <br/>
 and over again. <br/> <br/>
 
-- What about the project or task might factor into your decision one way or another? <br/>
-If the project or task requires for me to make a new program then I would prefer to work locally because it is easier to <br/>
+**What about the project or task might factor into your decision one way or another?** <br/>
+- If the project or task requires for me to make a new program then I would prefer to work locally because it is easier to <br/>
 use my mouse when working with a whole program. If the task is to edit a tiny bit of the code or fix a minor error in a <br/>
 code then I would prefer vim because it is more convenient.
 
