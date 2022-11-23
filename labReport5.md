@@ -50,16 +50,20 @@ echo "You have passed $NUMPASS out of $NUMTOTAL test."
 echo "You achieved the score of $NUMPASS/$NUMTOTAL."
 ```
 <br/>
-### Grading https://github.com/ucsd-cse15l-f22/list-methods-lab3 <br/>
+### Grading https://github.com/ucsd-cse15l-f22/list-methods-lab3
+
 ![grading first](https://user-images.githubusercontent.com/114313685/203482854-568a021a-3f8f-4526-9119-748733ce92ce.PNG) <br/>
 
 ### Grading https://github.com/ucsd-cse15l-f22/list-methods-corrected
+
 ![grading second](https://user-images.githubusercontent.com/114313685/203482166-74508382-a141-4db2-9f72-f36e12eb5f39.PNG) <br/>
 
 ### Grading https://github.com/ucsd-cse15l-f22/list-methods-compile-error
+
 ![grading third](https://user-images.githubusercontent.com/114313685/203482607-422b91eb-180b-438a-bda2-864b702c8ce8.PNG) <br/>
 
-### Tracing The Second Grading <br/>
+### Tracing The Second Grading
+
 The bash script first removes any folder named student-submission and then it git clones <br/>
 the inputted url and names it student-submission. It will then copy over the TestListExamples.java <br/>
 and the JUnit library folder to the student-submission folder. Then it will check if the <br/>
