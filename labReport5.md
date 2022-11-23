@@ -63,7 +63,7 @@ echo "You achieved the score of $NUMPASS/$NUMTOTAL."
 
 ![grading third](https://user-images.githubusercontent.com/114313685/203482607-422b91eb-180b-438a-bda2-864b702c8ce8.PNG) <br/>
 
-### Tracing The Second Grading
+### Tracing The Second Grading Example
 
 The bash script first removes any folder named student-submission and then it git clones <br/>
 the inputted url and names it student-submission. It will then copy over the TestListExamples.java <br/>
